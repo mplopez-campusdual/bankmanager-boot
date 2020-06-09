@@ -1,42 +1,41 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/maven,angular,eclipse,intellij
-# Edit at https://www.toptal.com/developers/gitignore?templates=maven,angular,eclipse,intellij
+# Created by https://www.toptal.com/developers/gitignore/api/maven,eclipse,angular,intellij,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=maven,eclipse,angular,intellij,visualstudiocode
 
 ### Angular ###
 ## Angular ##
 # compiled output
-/dist
-/tmp
-/app/**/*.js
-/app/**/*.js.map
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
 
 # dependencies
-/node_modules
-/bower_components
+node_modules/
+bower_components/
 
 # IDEs and editors
-/.idea
+.idea/
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
 npm-debug.log
 testem.log
-/typings
+typings/
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+e2e/*.js
+e2e/*.map
 
-#System Files
-.DS_Store
+# System Files
+.DS_Store/
 
 ### Eclipse ###
 .metadata
 bin/
-tmp/
 *.tmp
 *.bak
 *.swp
@@ -84,26 +83,24 @@ local.properties
 
 # Annotation Processing
 .apt_generated/
+.apt_generated_test/
 
 # Scala IDE specific (Scala & Java development for Eclipse)
 .cache-main
 .scala_dependencies
 .worksheet
 
-### Eclipse Patch ###
-# Eclipse Core
+# Uncomment this line if you wish to ignore the project description file.
+# Typically, this file would be tracked if it contains build/dependency configurations:
 .project
-
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
 
-# Annotation Processing
-.apt_generated
-
+### Eclipse Patch ###
+# Spring Boot Tooling
 .sts4-cache/
 
 ### Intellij ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
@@ -133,9 +130,14 @@ local.properties
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
+# *.iml
+# *.ipr
 
 # CMake
 cmake-build-*/
@@ -179,7 +181,19 @@ fabric.properties
 # *.ipr
 
 # Sonarlint plugin
-.idea/sonarlint
+.idea/**/sonarlint/
+
+# SonarQube Plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
 
 ### Maven ###
 target/
@@ -191,6 +205,24 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/maven,angular,eclipse,intellij
+### VisualStudioCode ###
+*/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/maven,eclipse,angular,intellij,visualstudiocode
+
+frontend/src/main/ngx/.vscode/
+model/src/main/db/templateDB.lck
+model/src/main/db/templateDB.log
+model/src/main/db/templateDB.script
