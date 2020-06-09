@@ -223,6 +223,10 @@ buildNumber.properties
 # End of https://www.toptal.com/developers/gitignore/api/maven,eclipse,angular,intellij,visualstudiocode
 
 frontend/src/main/ngx/.vscode/
+frontend/src/main/ngx/dist/
+frontend/src/main/ngx/node/node_modules/
+frontend/src/main/ngx/node/
+frontend/src/main/ngx/node_modules/
 model/src/main/db/templateDB.lck
 model/src/main/db/templateDB.log
 model/src/main/db/templateDB.script
