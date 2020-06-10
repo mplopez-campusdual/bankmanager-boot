@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.imatia</groupId>
 		<artifactId>bankmanager-boot</artifactId>
-		<version>0.0.1-SNASHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>bankmanager-boot-model</artifactId>
 	<name>${project.artifactId}</name>
