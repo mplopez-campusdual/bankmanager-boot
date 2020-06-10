@@ -35,31 +35,31 @@
 			<dependency>
 				<groupId>com.imatia</groupId>
 				<artifactId>bankmanager-boot-api</artifactId>
-				<version>0.0.1-SNASHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
 				<artifactId>bankmanager-boot-boot</artifactId>
-				<version>0.0.1-SNASHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
 				<artifactId>bankmanager-boot-frontend</artifactId>
-				<version>0.0.1-SNASHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.imatia</groupId>
 				<artifactId>bankmanager-boot-model</artifactId>
-				<version>0.0.1-SNASHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 			
 			<dependency>
 				<groupId>com.imatia</groupId>
 				<artifactId>bankmanager-boot-ws</artifactId>
-				<version>0.0.1-SNASHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
