@@ -27,4 +27,9 @@ public interface ICustomerService {
  public EntityResult customerAccountInsert(Map<String, Object> attributes) throws OntimizeJEERuntimeException;
  public EntityResult customerAccountUpdate(Map<String, Object> attributes, Map<String, Object> KeyValues) throws OntimizeJEERuntimeException;
  public EntityResult customerAccountDelete(Map<String, Object> keyValues) throws OntimizeJEERuntimeException;
+
+ // ---- VCUSTOMERACCOUNT ----
+
+ public EntityResult vCustomerAccountQuery(Map<String, Object> keysValues, List<String> attributes) throws OntimizeJEERuntimeException;
+ public EntityResult vCustomerAccountDelete(Map<String, Object> keyValues) throws OntimizeJEERuntimeException;
 }

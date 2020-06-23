@@ -123,4 +123,15 @@ public class CustomerService implements ICustomerService {
 			return attributes;
 		}
 	}
+
+	// ---- CUSTOMER ACCOUNT BALANCE ----
+	@Override
+	public EntityResult vCustomerAccountQuery(Map<String, Object> keysValues, List<String> attributes) throws OntimizeJEERuntimeException {
+	   return this.daoHelper.query(this.customerAccountDao, keysValues, attributes, CustomerAccountDao.QUERY_VCUSTOMERACCOUNT);
+	}
+ 
+	@Override
+	public EntityResult vCustomerAccountDelete(Map<String, Object> keyValues) throws OntimizeJEERuntimeException {
+	   return this.daoHelper.delete(this.customerAccountDao, keyValues);
+	}
 }
