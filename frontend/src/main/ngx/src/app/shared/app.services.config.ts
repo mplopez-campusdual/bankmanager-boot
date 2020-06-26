@@ -5,7 +5,13 @@ export const SERVICE_CONFIG: Object = {
   'employees': {
     'path': '/employees'
   },
-  'branches': {
+  'branches':{
     'path': '/branches'
+  },
+  'accounts':{
+    'path': '/accounts'
+  },
+  'movements':{
+    'path': '/movements'
   }
 };
